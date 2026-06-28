@@ -59,12 +59,12 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <button
               onClick={() => {
-                const buildSec = document.getElementById("estimator");
-                if (buildSec) buildSec.scrollIntoView({ behavior: "smooth" });
+                const formSec = document.getElementById("consultation-form");
+                if (formSec) formSec.scrollIntoView({ behavior: "smooth" });
               }}
               className="bg-primary text-on-primary px-8 py-4 rounded-full font-sans text-xs font-bold uppercase tracking-wider hover:scale-105 transition-transform shadow-lg"
             >
-              Plan Project Scope
+              Book Free Consultation
             </button>
             <button
               onClick={() => {

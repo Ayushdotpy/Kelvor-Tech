@@ -86,14 +86,6 @@ export const METHODOLOGY_STEPS: MethodologyStep[] = [
     duration: 'Week 12',
     deliverables: ['Cloud Infrastructure Setup', 'Live Monitoring Dashboards', 'Disaster Recovery Plan']
   },
-  {
-    stepNum: '07',
-    title: 'Scale',
-    description: 'Continuous monitoring and evolution.',
-    detailedScope: 'We track active user telemetry, optimize queries as data scales, implement security patches, and collaborate on feature expansions as your business targets grow.',
-    duration: 'Ongoing',
-    deliverables: ['Monthly Telemetry Audits', 'Iterative Feature Roadmaps', 'Server Cost Optimization Reviews']
-  }
 ];
 
 export const CAPABILITIES: Capability[] = [
