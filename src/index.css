@@ -63,12 +63,15 @@
   html {
     scroll-behavior: smooth;
     background-color: #f7f7f5;
+    overflow-x: hidden;
+    max-width: 100vw;
   }
   
   body {
     font-family: "Hanken Grotesk", sans-serif;
     color: #1c1b1b;
     overflow-x: hidden;
+    max-width: 100vw;
   }
 
   /* Custom scrollbar */

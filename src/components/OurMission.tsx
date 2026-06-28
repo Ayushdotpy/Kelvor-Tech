@@ -4,7 +4,7 @@ const OurMission = () => {
       className="py-16 sm:py-24 bg-white border-y border-secondary/10"
       id="solutions"
     >
-      <div className="container mx-auto px-6 lg:px-12 max-w-4xl text-center">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12 max-w-4xl text-center">
         <span className="font-sans text-xs font-bold tracking-widest text-secondary uppercase block mb-6">
           OUR MISSION
         </span>

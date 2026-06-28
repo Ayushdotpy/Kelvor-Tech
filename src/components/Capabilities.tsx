@@ -6,7 +6,7 @@ const Capabilities = () => {
       className="py-16 sm:py-24 lg:py-32 bg-[#F7F7F5] border-t border-secondary/10"
       id="capabilities"
     >
-      <div className="container mx-auto px-6 lg:px-12 max-w-7xl space-y-12">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12 max-w-7xl space-y-12">
         <div>
           <span className="font-sans text-xs font-bold tracking-widest text-secondary uppercase block mb-2">
             SPECIFIC CAPABILITIES

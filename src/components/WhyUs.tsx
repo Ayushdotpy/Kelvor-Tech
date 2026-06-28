@@ -1,12 +1,12 @@
 const WhyUs = () => {
   return (
     <section className="py-16 sm:py-24 lg:py-32 bg-white">
-      <div className="container mx-auto px-6 lg:px-12 max-w-7xl space-y-16">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12 max-w-7xl space-y-16">
         <div className="text-center max-w-2xl mx-auto space-y-3">
           <span className="font-sans text-xs font-bold tracking-widest text-secondary uppercase">
             WHY PARTNER WITH US
           </span>
-          <h2 className="font-display text-3xl md:text-5xl font-black text-primary">
+          <h2 className="font-display text-2xl sm:text-3xl md:text-5xl font-black text-primary">
             Uncompromising Quality
           </h2>
           <p className="font-sans text-sm text-secondary">

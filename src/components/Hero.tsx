@@ -46,10 +46,10 @@ const Hero = () => {
           <span className="font-sans text-xs font-bold text-secondary uppercase tracking-widest block mb-4">
             PREMIUM PARTNER FOR MODERN DIGITS
           </span>
-          <h1 className="font-display text-3xl sm:text-4xl md:text-6xl font-black text-primary mb-4 sm:mb-6 tracking-tight leading-tight">
+          <h1 className="font-display text-2xl sm:text-4xl md:text-6xl font-black text-primary mb-4 sm:mb-6 tracking-tight leading-tight">
             Building Technology That Powers Modern Businesses.
           </h1>
-          <p className="font-sans text-sm sm:text-base md:text-lg text-secondary mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed">
+          <p className="font-sans text-xs sm:text-base md:text-lg text-secondary mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed">
             We create custom websites, enterprise applications, AI-powered
             automation systems, SaaS products, and digital solutions that help
             businesses operate smarter, scale faster, and stay ahead of the

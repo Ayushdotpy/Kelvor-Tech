@@ -119,7 +119,7 @@ export default function App() {
   );
 
   return (
-    <div className="bg-[#F7F7F5] text-[#1c1b1b] relative min-h-screen">
+    <div className="bg-[#F7F7F5] text-[#1c1b1b] relative min-h-screen overflow-x-hidden">
       {/* Toast Notification */}
       <AnimatePresence>
         {toastMessage && (

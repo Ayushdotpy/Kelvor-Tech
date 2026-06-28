@@ -35,7 +35,7 @@ const WorkCaseStudies = () => {
   };
   return (
     <section className="py-24 bg-[#F7F7F5]">
-      <div className="container mx-auto px-6 lg:px-12 max-w-7xl">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12 max-w-7xl">
         <ProjectExplorer
           onStartProjectClick={(brief) => handleScopeImported(brief, "", "")}
         />

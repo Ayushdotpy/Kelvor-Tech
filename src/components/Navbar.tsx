@@ -38,10 +38,10 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-3">
-          {/* CTA button */}
+          {/* CTA button — hidden on mobile, visible on tablet+ */}
           <button
             onClick={() => scrollTo("consultation-form")}
-            className="bg-primary text-on-primary px-4 md:px-5 py-2.5 rounded-full font-sans text-xs font-bold uppercase tracking-wider hover:scale-105 transition-transform"
+            className="hidden sm:block bg-primary text-on-primary px-4 md:px-5 py-2.5 rounded-full font-sans text-xs font-bold uppercase tracking-wider hover:scale-105 transition-transform"
           >
             Let's Talk
           </button>

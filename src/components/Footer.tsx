@@ -11,8 +11,8 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-end gap-12 w-full md:w-auto">
-          <div className="flex flex-wrap gap-8 justify-start md:justify-end text-sm">
+        <div className="flex flex-col items-start md:items-end gap-8 sm:gap-12 w-full md:w-auto">
+          <div className="flex flex-wrap gap-6 sm:gap-8 justify-start md:justify-end text-sm">
             <a
               href="#"
               className="text-white/60 hover:text-tertiary-fixed transition-colors"
@@ -39,7 +39,7 @@ const Footer = () => {
             </a>
           </div>
 
-          <div className="text-[11px] text-white/45 uppercase tracking-widest font-semibold font-mono text-right w-full">
+          <div className="text-[11px] text-white/45 uppercase tracking-widest font-semibold font-mono text-left md:text-right w-full">
             © {new Date().getFullYear()} KELVOR TECHNOLOGY GROUP. ALL RIGHTS
             RESERVED.
           </div>

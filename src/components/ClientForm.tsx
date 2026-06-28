@@ -110,7 +110,7 @@ const ClientForm = () => {
               <span className="font-sans text-xs font-bold text-tertiary-fixed tracking-widest uppercase block">
                 START YOUR DIGITAL TRANSFORMATION
               </span>
-              <h2 className="font-display text-3xl sm:text-4xl md:text-6xl text-white leading-none font-black">
+              <h2 className="font-display text-2xl sm:text-4xl md:text-6xl text-white leading-none font-black">
                 Let's Build Your
                 <br />
                 Next Digital Product.
@@ -233,7 +233,7 @@ const ClientForm = () => {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="bg-tertiary-fixed text-primary px-10 py-4.5 rounded-full font-sans text-xs font-bold tracking-widest uppercase flex items-center gap-3 hover:scale-105 transition-all shadow-[0_0_40px_rgba(177,247,51,0.2)] hover:shadow-[0_0_60px_rgba(177,247,51,0.4)] disabled:opacity-60 disabled:hover:scale-100"
+                  className="w-full sm:w-auto bg-tertiary-fixed text-primary px-10 py-4 rounded-full font-sans text-xs font-bold tracking-widest uppercase flex items-center justify-center gap-3 hover:scale-105 transition-all shadow-[0_0_40px_rgba(177,247,51,0.2)] hover:shadow-[0_0_60px_rgba(177,247,51,0.4)] disabled:opacity-60 disabled:hover:scale-100"
                 >
                   <span>
                     {isSubmitting ? "SENDING..." : "BOOK FREE CONSULTATION"}
