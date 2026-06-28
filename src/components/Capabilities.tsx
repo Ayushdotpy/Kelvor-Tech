@@ -3,7 +3,7 @@ import { CAPABILITIES } from "../data";
 const Capabilities = () => {
   return (
     <section
-      className="py-32 bg-[#F7F7F5] border-t border-secondary/10"
+      className="py-16 sm:py-24 lg:py-32 bg-[#F7F7F5] border-t border-secondary/10"
       id="capabilities"
     >
       <div className="container mx-auto px-6 lg:px-12 max-w-7xl space-y-12">

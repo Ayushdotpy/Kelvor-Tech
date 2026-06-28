@@ -1,6 +1,6 @@
 const Stats = () => {
   return (
-    <section className="bg-primary text-on-primary py-32 overflow-hidden border-y border-white/10">
+    <section className="bg-primary text-on-primary py-16 sm:py-24 lg:py-32 overflow-hidden border-y border-white/10">
       <div className="container mx-auto px-6 lg:px-12 max-w-[96rem] ">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 text-center">
           <div className="space-y-2">

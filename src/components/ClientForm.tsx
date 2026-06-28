@@ -85,7 +85,7 @@ const ClientForm = () => {
 
   return (
     <section
-      className="py-32 bg-[#F7F7F5] border-t border-secondary/10"
+      className="py-16 sm:py-24 lg:py-32 bg-[#F7F7F5] border-t border-secondary/10"
       id="consultation-form"
     >
       {/* Toast Notification */}
@@ -98,8 +98,8 @@ const ClientForm = () => {
         </div>
       )}
 
-      <div className="container mx-auto px-6 lg:px-12 max-w-7xl">
-        <div className="bg-primary rounded-container-radius p-8 md:p-20 lg:p-28 overflow-hidden relative group border border-white/5 shadow-2xl">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12 max-w-7xl">
+        <div className="bg-primary rounded-container-radius p-6 sm:p-10 md:p-16 lg:p-24 overflow-hidden relative group border border-white/5 shadow-2xl">
           {/* Ambient Background decoration */}
           <div className="absolute inset-0 opacity-10 pointer-events-none overflow-hidden">
             <div className="absolute -top-1/4 -right-1/4 w-[800px] h-[800px] bg-tertiary-fixed rounded-full blur-[200px]" />
@@ -110,7 +110,7 @@ const ClientForm = () => {
               <span className="font-sans text-xs font-bold text-tertiary-fixed tracking-widest uppercase block">
                 START YOUR DIGITAL TRANSFORMATION
               </span>
-              <h2 className="font-display text-4xl md:text-6xl text-white leading-none font-black">
+              <h2 className="font-display text-3xl sm:text-4xl md:text-6xl text-white leading-none font-black">
                 Let's Build Your
                 <br />
                 Next Digital Product.
@@ -123,7 +123,7 @@ const ClientForm = () => {
             </div>
 
             {/* Consultation Input Form */}
-            <form onSubmit={handleFormSubmit} className="space-y-12">
+            <form onSubmit={handleFormSubmit} className="space-y-8 sm:space-y-12">
               <div className="grid md:grid-cols-2 gap-8">
                 {/* Name field */}
                 <div className="relative border-b border-white/10 pb-4 group/input">
@@ -156,7 +156,7 @@ const ClientForm = () => {
                 </div>
               </div>
 
-              <div className="grid md:grid-cols-3 gap-8">
+              <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
                 {/* Project Type drop */}
                 <div className="relative border-b border-white/10 pb-4 group/input">
                   <label className="block font-sans text-[10px] text-white/40 mb-1 uppercase tracking-widest font-bold">

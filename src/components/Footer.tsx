@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
     <footer className="w-full bg-primary text-on-primary rounded-t-[40px] mt-32 border-t border-white/5">
-      <div className="container mx-auto px-6 lg:px-12 py-24 max-w-7xl flex flex-col md:flex-row justify-between items-start md:items-end gap-12">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12 py-12 sm:py-16 md:py-24 max-w-7xl flex flex-col md:flex-row justify-between items-start md:items-end gap-8 sm:gap-12">
         <div className="space-y-6">
-          <h2 className="font-display text-5xl font-black tracking-tighter text-white">
+          <h2 className="font-display text-4xl sm:text-5xl font-black tracking-tighter text-white">
             KELVOR
           </h2>
           <p className="font-sans text-sm text-white/50 max-w-xs leading-relaxed uppercase tracking-wider">

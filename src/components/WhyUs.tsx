@@ -1,6 +1,6 @@
 const WhyUs = () => {
   return (
-    <section className="py-32 bg-white">
+    <section className="py-16 sm:py-24 lg:py-32 bg-white">
       <div className="container mx-auto px-6 lg:px-12 max-w-7xl space-y-16">
         <div className="text-center max-w-2xl mx-auto space-y-3">
           <span className="font-sans text-xs font-bold tracking-widest text-secondary uppercase">

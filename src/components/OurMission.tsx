@@ -1,7 +1,7 @@
 const OurMission = () => {
   return (
     <section
-      className="py-24 bg-white border-y border-secondary/10"
+      className="py-16 sm:py-24 bg-white border-y border-secondary/10"
       id="solutions"
     >
       <div className="container mx-auto px-6 lg:px-12 max-w-4xl text-center">
