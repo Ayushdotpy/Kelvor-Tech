@@ -5,7 +5,7 @@ const Stats = () => {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-12 text-center">
           <div className="space-y-2">
             <span className="font-display text-4xl sm:text-5xl md:text-7xl font-extrabold text-white">
-              50+
+              10+
             </span>
             <p className="font-sans text-[9px] sm:text-[10px] text-white/50 uppercase tracking-widest font-semibold">
               PROJECTS DELIVERED

@@ -135,7 +135,7 @@ const ClientForm = () => {
                     type="text"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                    placeholder="John Doe"
+                    placeholder="[YOUR NAME]"
                     className="w-full bg-transparent border-none text-white text-base outline-none focus:ring-0 placeholder:text-white/15 pt-1"
                   />
                 </div>
@@ -150,7 +150,7 @@ const ClientForm = () => {
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    placeholder="john@example.com"
+                    placeholder="[EMAIL ADDRESS]"
                     className="w-full bg-transparent border-none text-white text-base outline-none focus:ring-0 placeholder:text-white/15 pt-1"
                   />
                 </div>

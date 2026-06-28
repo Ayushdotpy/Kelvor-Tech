@@ -81,7 +81,7 @@ const Hero = () => {
           <div className="mt-8 sm:mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 border-t border-secondary/15 pt-6 sm:pt-8">
             <div className="flex flex-col">
               <span className="font-display text-2xl font-black text-primary">
-                50+
+                10+
               </span>
               <span className="text-[10px] text-secondary uppercase tracking-widest font-semibold mt-1">
                 Projects Delivered
