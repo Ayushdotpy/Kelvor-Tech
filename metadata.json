@@ -1,0 +1,6 @@
+{
+  "name": "Kelvor",
+  "description": "Full-service premium technology partner delivering custom websites, enterprise applications, AI automation, and cloud solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
